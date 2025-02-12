@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-amber-50 to-orange-50 text-gray-800 font-sans min-h-screen;
+  }
+  
+  h1, h2, h3 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300;
+  }
+  
+  .btn-primary {
+    @apply px-6 py-3 bg-gradient-to-r from-orange-500 to-amber-500 
+           text-white rounded-xl font-medium shadow-md
+           hover:from-orange-600 hover:to-amber-600
+           transition-all duration-300 transform hover:-translate-y-0.5;
+  }
+  
+  .section-title {
+    @apply text-4xl font-display font-bold text-gray-800 mb-6;
+  }
+  
+  .recipe-card {
+    @apply bg-white rounded-2xl shadow-md overflow-hidden
+           transform transition-all duration-300 hover:-translate-y-1 hover:shadow-xl;
+  }
+  
+  .filter-button {
+    @apply px-5 py-2.5 rounded-full text-sm font-medium transition-all duration-200
+           flex items-center gap-2 hover:shadow-md;
+  }
+  
+  .filter-button-active {
+    @apply bg-gradient-to-r from-orange-500 to-amber-500 text-white;
+  }
+  
+  .filter-button-inactive {
+    @apply bg-white text-gray-700 hover:bg-gray-50;
+  }
+}
+
+.gradient-overlay {
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+}
