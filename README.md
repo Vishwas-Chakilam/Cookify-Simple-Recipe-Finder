@@ -39,4 +39,4 @@ Contributions are welcome! To contribute:
 This project is licensed under the MIT License.
 
 ## Contact
-For any inquiries or support, reach out at: [your email or social media link]
+For any inquiries or support, reach out at: [work.vishwas1@gmail.com]
