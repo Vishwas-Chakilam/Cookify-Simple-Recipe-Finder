@@ -7,8 +7,8 @@
 
 ## ✨ Features
 ✅ **User Authentication**: Secure login and signup functionality.  
-✅ **Recipe Discovery**: Browse a vast collection of recipes from different cuisines.
-✅ **Favorites & Collections**: Save and organize your favorite recipes into custom collections.    
+✅ **Recipe Discovery**: Browse a vast collection of recipes from different cuisines.  
+✅ **Favorites & Collections**: Save and organize your favorite recipes into custom collections.  
 ✅ **Recipe Sharing**: Share your favorite recipes with others.  
 ✅ **Advanced Search & Filters**: Find recipes based on ingredients, cooking time, and dietary preferences.  
 ✅ **Interactive UI**: Responsive and user-friendly design for seamless navigation.  
